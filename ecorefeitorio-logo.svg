@@ -1,12 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
-  <circle cx="120" cy="120" r="114" stroke="#1E4C38" stroke-width="4"/>
-  <circle cx="120" cy="120" r="96" stroke="#1E4C38" stroke-width="2.5"/>
-  <path d="M62 157V115h13v42M83 157V91h13v66M104 157V76h13v81" fill="#34A853" stroke="#F9F8F3" stroke-width="2"/>
-  <path d="m64 106 28-25 17 15 27-27 17-18" stroke="#1E4C38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M144 51h10v10" stroke="#1E4C38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M164 84v72m-5-72v20a5 5 0 0 0 10 0V84m12 0c-6 13-6 28 0 38v34" stroke="#1E4C38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="105" y="117" width="46" height="58" rx="7" fill="#F9F8F3" stroke="#1E4C38" stroke-width="4"/>
-  <circle cx="128" cy="166" r="2.5" fill="#1E4C38"/>
-  <path d="M116 145l8 8 16-18" stroke="#34A853" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M76 178h88" stroke="#1E4C38" stroke-width="3" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- Fundo texturizado bege suave -->
+  <rect width="100%" height="100%" fill="#F1ECE1" />
+
+  <!-- Círculo externo verde escuro -->
+  <circle cx="500" cy="500" r="480" fill="none" stroke="#254238" stroke-width="20" />
+
+  <!-- Símbolo gráfico composto -->
+  <g transform="translate(180, 220)">
+    <!-- Gráfico de barras verdes e seta -->
+    <path d="M10,240 L10,180" fill="#75C345" />
+    <path d="M50,240 L50,150" fill="#75C345" />
+    <path d="M90,240 L90,130" fill="#67B13F" />
+    <path d="M130,240 L130,120" fill="#67B13F" />
+    <path d="M170,240 L170,110" fill="#67B13F" />
+    <path d="M210,240 L210,100" fill="#2E6C36" />
+    <path d="M250,240 L250,90" fill="#2E6C36" />
+    <path d="M290,240 L290,80" fill="#2E6C36" />
+    <path d="M330,240 L330,100" fill="#2E6C36" />
+    <path d="M370,240 L370,120" fill="#2E6C36" />
+    
+    <!-- Seta de tendência de crescimento verde escuro -->
+    <path d="M10,180 L80,110 L150,150 L220,90 L290,120 L360,70 L390,100 L410,60" fill="none" stroke="#2E6C36" stroke-width="12" stroke-linecap="round" marker-end="url(#arrow)" />
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-startReverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#2E6C36" />
+      </marker>
+    </defs>
+  </g>
+    
+  <!-- Símbolo de talheres e tablet (centralizado) -->
+  <g transform="translate(480, 310)">
+    <!-- Talheres verde escuro -->
+    <path d="M120,0 L120,180 M110,0 L110,180 M100,0 L100,180 M130,0 L130,180 M90,0 Q110,0 110,20 Q110,180 110,180 M150,0 Q130,0 130,20 Q130,180 130,180 M110,240 L110,400 M130,240 L130,400 M110,20 Q120,40 130,20" fill="none" stroke="#254238" stroke-width="10" />
+    <ellipse cx="120" cy="80" rx="30" ry="80" fill="none" stroke="#254238" stroke-width="10" />
+    <path d="M90,320 L150,320 Q160,320 160,330 Q160,340 150,340 L90,340" fill="#254238" />
+
+    <!-- Tablet de rastreamento com porcentagem (centralizado) -->
+    <rect x="-80" y="240" width="160" height="200" rx="15" ry="15" fill="white" stroke="#2E6C36" stroke-width="10" />
+    <path d="M-60,300 L60,300 M-60,340 L60,340 M-60,380 L60,380" fill="none" stroke="#2E6C36" stroke-width="5" />
+    
+    <!-- Ícone de check de rastreamento (laranja) e porcentagem (verde escuro) -->
+    <path d="M-20,320 L0,340 L30,310" fill="none" stroke="#D1812E" stroke-width="8" stroke-linecap="round" />
+    <text x="0" y="380" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#254238" text-anchor="middle">%412</text>
+  </g>
+
+  <!-- Blocos de texto (centralizados) -->
+  <g transform="translate(500, 600)">
+    <!-- Texto do Grupo verde escuro -->
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="42" fill="#254238" text-anchor="middle">Conecta Caiçara | Grupo 2</text>
+    
+    <!-- Título principal 'ECOREFEITÓRIO' verde escuro, negrito -->
+    <text x="0" y="100" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="bold" fill="#254238" text-anchor="middle">ECOREFEITÓRIO</text>
+    
+    <!-- Slogan verde escuro, centralizado -->
+    <text x="0" y="180" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="#254238" text-anchor="middle">Gestão Inteligente de</text>
+    <text x="0" y="240" font-family="Arial, Helvetica, sans-serif" font-size="46" fill="#254238" text-anchor="middle">Alimentos nas Escolas</text>
+  </g>
 </svg>
